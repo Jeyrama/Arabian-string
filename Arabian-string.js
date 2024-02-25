@@ -17,3 +17,5 @@ function camelize(str) {
     return s[0].toUpperCase() + s.substr(1).toLowerCase()
   }).join('')
 }
+
+// or
