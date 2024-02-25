@@ -11,3 +11,9 @@ For example: (Input --> Output)
 
 
 // Solution
+
+function camelize(str) {
+  return str.match(/[a-z0-9]+/gi).map(function(s) {
+    return s[0].toUpperCase() + s.substr(1).toLowerCase()
+  }).join('')
+}
