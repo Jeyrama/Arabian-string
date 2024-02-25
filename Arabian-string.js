@@ -8,3 +8,6 @@ For example: (Input --> Output)
   "your-NaMe-here" --> "YourNameHere"
   "testing ABC" --> "TestingAbc"
 */
+
+
+// Solution
